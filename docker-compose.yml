@@ -1,0 +1,45 @@
+version: '3.5'
+
+services:
+
+  app:
+    container_name: app
+    build:
+      context: .
+    volumes:
+      - '.:/var/www'
+    ports:
+      - '8080:80'
+    depends_on:
+      - db
+
+  db:
+    container_name: db
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: app
+    volumes:
+      - db-data:/var/lib/mysql
+
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USERNAME: root
+      PMA_HOST: db
+    ports:
+      - '8081:80'
+    depends_on:
+      - db
+
+  composer:
+    restart: 'no'
+    image: composer
+    command: install
+    volumes:
+      - .:/app
+
+volumes:
+  db-data:

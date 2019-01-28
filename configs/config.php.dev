@@ -1,0 +1,8 @@
+<?php
+
+// see following url for example configs to override
+// https://github.com/HidalgoRides/intersect-web/blob/master/configs/base-config.php
+
+// or register your own configs
+
+return [];

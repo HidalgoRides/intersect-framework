@@ -1,0 +1,13 @@
+.DS_Store
+.git
+.gitignore
+.dockerignore
+.idea
+.vscode
+Dockerfile
+README.md
+docker-compose.yml
+phpunit.xml
+logs
+cache
+vendor
