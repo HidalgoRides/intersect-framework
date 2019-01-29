@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79def25128e163248d45c912fdbee1dc",
+    "content-hash": "2bf827039095051fdbd924948238adf7",
     "packages": [
         {
             "name": "hidalgo-rides/intersect-core",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-core.git",
-                "reference": "9eb73078456a402525915ead3357a343ee260467"
+                "reference": "4a54fc1d6001e028a68d39bb6fd0a139a13c5338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-core/zipball/9eb73078456a402525915ead3357a343ee260467",
-                "reference": "9eb73078456a402525915ead3357a343ee260467",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-core/zipball/4a54fc1d6001e028a68d39bb6fd0a139a13c5338",
+                "reference": "4a54fc1d6001e028a68d39bb6fd0a139a13c5338",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Common classes used throughout Intersect libraries and projects.",
-            "time": "2019-01-27T08:56:40+00:00"
+            "time": "2019-01-29T03:58:53+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-database",
@@ -51,16 +51,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-database.git",
-                "reference": "b6e6c6ba96aeb4c537bc13c25cd2b90c6ab32685"
+                "reference": "5dc0ac77a19d15ae4fe80bde015b1a0a5bc3a3ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/b6e6c6ba96aeb4c537bc13c25cd2b90c6ab32685",
-                "reference": "b6e6c6ba96aeb4c537bc13c25cd2b90c6ab32685",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/5dc0ac77a19d15ae4fe80bde015b1a0a5bc3a3ff",
+                "reference": "5dc0ac77a19d15ae4fe80bde015b1a0a5bc3a3ff",
                 "shasum": ""
             },
             "require": {
-                "hidalgo-rides/intersect-core": "^1.0.0"
+                "hidalgo-rides/intersect-core": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7"
@@ -82,7 +82,7 @@
                 }
             ],
             "description": "Database abstraction layer used throughout Intersect libraries and projects.",
-            "time": "2019-01-27T09:32:15+00:00"
+            "time": "2019-01-29T04:25:14+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-http",
@@ -90,16 +90,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-http.git",
-                "reference": "21b1d7d9f5f9c9ef3507b54b257aa240cea52354"
+                "reference": "8aba108c38b4826981f9a2393a2102133cf40d8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-http/zipball/21b1d7d9f5f9c9ef3507b54b257aa240cea52354",
-                "reference": "21b1d7d9f5f9c9ef3507b54b257aa240cea52354",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-http/zipball/8aba108c38b4826981f9a2393a2102133cf40d8b",
+                "reference": "8aba108c38b4826981f9a2393a2102133cf40d8b",
                 "shasum": ""
             },
             "require": {
-                "hidalgo-rides/intersect-core": "^1.0.0"
+                "hidalgo-rides/intersect-core": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7"
@@ -121,25 +121,25 @@
                 }
             ],
             "description": "Handles HTTP request and routing for Intersect projects.",
-            "time": "2019-01-27T09:52:06+00:00"
+            "time": "2019-01-29T04:23:03+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-web",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-web.git",
-                "reference": "7b21178d0e77586a7e509a3dfa033b6c066e5251"
+                "reference": "ce5552e1cd37af69274a86729d0b0c3fc644a1b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/7b21178d0e77586a7e509a3dfa033b6c066e5251",
-                "reference": "7b21178d0e77586a7e509a3dfa033b6c066e5251",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/ce5552e1cd37af69274a86729d0b0c3fc644a1b9",
+                "reference": "ce5552e1cd37af69274a86729d0b0c3fc644a1b9",
                 "shasum": ""
             },
             "require": {
-                "hidalgo-rides/intersect-database": "^1.0.0",
-                "hidalgo-rides/intersect-http": "^1.0.0"
+                "hidalgo-rides/intersect-database": "^1.0",
+                "hidalgo-rides/intersect-http": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7"
@@ -161,7 +161,7 @@
                 }
             ],
             "description": "Web layer built to provide easy integration with Intersect libraries.",
-            "time": "2019-01-27T23:52:14+00:00"
+            "time": "2019-01-29T04:16:33+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1271,16 +1271,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f"
+                "reference": "4a43e9af57b4afa663077b9bc85255dbc6e8a2bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/febd209a219cea7b56ad799b30ebbea34b71eb8f",
-                "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4a43e9af57b4afa663077b9bc85255dbc6e8a2bd",
+                "reference": "4a43e9af57b4afa663077b9bc85255dbc6e8a2bd",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2018-11-25T09:31:21+00:00"
+            "time": "2019-01-28T15:26:03+00:00"
         },
         {
             "name": "sebastian/exporter",
