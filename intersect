@@ -9,5 +9,5 @@ $application = Application::instance();
 $application->setBasePath(realpath(__DIR__));
 $application->init();
 
-$commandRunner = new \Intersect\Core\Command\CommandRunner($application);
+$commandRunner = new \Intersect\Core\Command\CommandRunner($application->getContainer());
 $commandRunner->run($argv, $argc);
