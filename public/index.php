@@ -4,7 +4,6 @@ require_once dirname(__FILE__) . '/../vendor/autoload.php';
 
 use Intersect\Application;
 use Intersect\Core\Http\Request;
-use Intersect\Http\RequestHandler;
 
 $request = Request::initFromGlobals();
 

@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-database.git",
-                "reference": "5a7e5c29b4be9735e53c18e346c300e5cad2f3e6"
+                "reference": "7a8409189b3b93682ce4a655d845f22610fd264d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/5a7e5c29b4be9735e53c18e346c300e5cad2f3e6",
-                "reference": "5a7e5c29b4be9735e53c18e346c300e5cad2f3e6",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/7a8409189b3b93682ce4a655d845f22610fd264d",
+                "reference": "7a8409189b3b93682ce4a655d845f22610fd264d",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                 }
             ],
             "description": "Database abstraction layer used throughout Intersect libraries and projects.",
-            "time": "2019-05-09T05:04:33+00:00"
+            "time": "2019-05-10T02:58:37+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-http",
@@ -129,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-web.git",
-                "reference": "79360f8cc62e3004acb33ae3c31fc186398a4410"
+                "reference": "b4efd9cdc617bd9d0f7af2f2b8067fddfe574938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/79360f8cc62e3004acb33ae3c31fc186398a4410",
-                "reference": "79360f8cc62e3004acb33ae3c31fc186398a4410",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/b4efd9cdc617bd9d0f7af2f2b8067fddfe574938",
+                "reference": "b4efd9cdc617bd9d0f7af2f2b8067fddfe574938",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 }
             ],
             "description": "Web layer built to provide easy integration with Intersect libraries.",
-            "time": "2019-05-09T06:18:54+00:00"
+            "time": "2019-05-10T03:08:53+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
