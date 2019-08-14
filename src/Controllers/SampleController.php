@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Intersect\AbstractController;
+use Intersect\Controllers\AbstractController;
 use Intersect\Http\Response\TwigResponse;
 
 class SampleController extends AbstractController {
