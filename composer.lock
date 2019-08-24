@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-core.git",
-                "reference": "15fbaa94bbb70b4bbabd382f46fa6e0484edb49a"
+                "reference": "c90874639d3f41f05b84f4151dde78ad6a640ec6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-core/zipball/15fbaa94bbb70b4bbabd382f46fa6e0484edb49a",
-                "reference": "15fbaa94bbb70b4bbabd382f46fa6e0484edb49a",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-core/zipball/c90874639d3f41f05b84f4151dde78ad6a640ec6",
+                "reference": "c90874639d3f41f05b84f4151dde78ad6a640ec6",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Common classes used throughout Intersect libraries and projects.",
-            "time": "2019-08-24T02:51:10+00:00"
+            "time": "2019-08-24T20:25:21+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-database",
@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-database.git",
-                "reference": "d6557306bfe76e77035739d3194d0b36be60647d"
+                "reference": "1ede239f5ffbf2536ecde5d9ea0763751095b423"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/d6557306bfe76e77035739d3194d0b36be60647d",
-                "reference": "d6557306bfe76e77035739d3194d0b36be60647d",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-database/zipball/1ede239f5ffbf2536ecde5d9ea0763751095b423",
+                "reference": "1ede239f5ffbf2536ecde5d9ea0763751095b423",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                 }
             ],
             "description": "Database abstraction layer used throughout Intersect libraries and projects.",
-            "time": "2019-08-24T02:55:12+00:00"
+            "time": "2019-08-24T04:23:35+00:00"
         },
         {
             "name": "hidalgo-rides/intersect-http",
@@ -131,12 +131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HidalgoRides/intersect-web.git",
-                "reference": "74ff8dc6be3173bdba06276ca64f914e32595372"
+                "reference": "48b9c53a9bc5086f72d2fbc5d9e0303f89939f2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/74ff8dc6be3173bdba06276ca64f914e32595372",
-                "reference": "74ff8dc6be3173bdba06276ca64f914e32595372",
+                "url": "https://api.github.com/repos/HidalgoRides/intersect-web/zipball/48b9c53a9bc5086f72d2fbc5d9e0303f89939f2a",
+                "reference": "48b9c53a9bc5086f72d2fbc5d9e0303f89939f2a",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 }
             ],
             "description": "Web layer built to provide easy integration with Intersect libraries.",
-            "time": "2019-08-24T02:59:17+00:00"
+            "time": "2019-08-24T05:37:12+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1762,16 +1762,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
                 "shasum": ""
             },
             "require": {
@@ -1779,8 +1779,7 @@
                 "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.6",
-                "sebastian/version": "^1.0.1"
+                "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
             "extra": {
@@ -1809,7 +1808,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2018-12-25T11:19:39+00:00"
+            "time": "2019-08-24T08:43:50+00:00"
         }
     ],
     "aliases": [],
