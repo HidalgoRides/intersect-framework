@@ -34,12 +34,5 @@ services:
     depends_on:
       - db
 
-  composer:
-    restart: 'no'
-    image: composer
-    command: install
-    volumes:
-      - .:/app
-
 volumes:
   db-data:
