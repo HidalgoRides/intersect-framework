@@ -19,7 +19,7 @@
     }
   },
   "require": {
-    "hidalgo-rides/intersect-web" : "dev-release/1.2.x",
+    "hidalgo-rides/intersect-web" : "1.2.*",
     "php": "^7.1.3",
     "twig/twig": "^2.0"
   },
