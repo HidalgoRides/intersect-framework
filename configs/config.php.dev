@@ -1,9 +1,13 @@
 <?php
 
+use Intersect\Providers\DefaultProvider;
+
 return [
     'app' => [
         'key' => '',
-        'providers' => []
+        'providers' => [
+            DefaultProvider::class
+        ]
     ],
     'database' => [
         'connections' => [
