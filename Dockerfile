@@ -1,7 +1,7 @@
 # install composer dependencies
-# FROM composer as composer
-# COPY ./composer.* /app/
-# RUN composer install --no-interaction --prefer-source --no-scripts
+FROM composer as composer
+COPY ./composer.* /app/
+RUN composer install --no-interaction --prefer-source --no-scripts --no-dev
 
 # install PHP / Apache
 FROM php:7.1-apache
@@ -26,4 +26,4 @@ COPY ./.docker/apache.conf /etc/apache2/sites-available/000-default.conf
 COPY . .
 
 # copy vendor dependencies to root directory
-# COPY --from=composer /app/vendor /var/www/vendor
+COPY --from=composer /app/vendor /var/www/vendor
