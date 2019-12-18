@@ -4,6 +4,15 @@ use Intersect\Providers\DefaultProvider;
 
 return [
     'app' => [
+        'cors' => [
+            'enabled' => false,
+            'allow-credentials' => 'false',
+            'allow-headers' => [],
+            'allow-methods' => [],
+            'allow-origin' => '',
+            'expose-headers' => [],
+            'max-age' => null
+        ],
         'key' => '',
         'providers' => [
             DefaultProvider::class
