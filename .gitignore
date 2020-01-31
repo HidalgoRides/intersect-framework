@@ -4,3 +4,4 @@ vendor/
 logs/
 cache/
 configs/config.php
+composer.lock
