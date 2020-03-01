@@ -68,3 +68,7 @@ If you want to generate code-coverage reports while running the PHPUnit tests, r
 docker exec app vendor/bin/phpunit --coverage-html=./tests/coverage-results
 ```
 This will create your coverage report inside the `tests/coverage-results` directory
+
+
+## License
+Intersect Framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
