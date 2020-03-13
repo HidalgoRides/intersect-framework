@@ -1,5 +1,6 @@
 <?php
 
+use App\Providers\SiteProvider;
 use Intersect\Providers\DefaultProvider;
 use Intersect\Providers\MigrationsProvider;
 
@@ -17,7 +18,8 @@ return [
         'key' => '<GENERATED_APP_KEY>',
         'providers' => [
             DefaultProvider::class,
-            MigrationsProvider::class
+            MigrationsProvider::class,
+            SiteProvider::class
         ]
     ],
     'database' => [
