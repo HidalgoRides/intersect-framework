@@ -38,7 +38,7 @@ return [
     'paths' => [
         'cache' => '/cache',
         'logs' => '/logs',
-        'migrations' => '/migrations',
+        'migrations' => '/src/Migrations',
         'templates' => '/templates',
     ]
 ];
