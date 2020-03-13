@@ -32,6 +32,14 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
+  "scripts": {
+      "post-create-project-cmd": [
+        "@php intersect app:generate-key"
+      ],
+      "post-root-package-install": [
+        "@php -r \"file_exists('./configs/config.php') || copy('./configs/config.php.dev', './configs/config.php');\""
+      ]
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }

@@ -1,6 +1,7 @@
 <?php
 
 use Intersect\Providers\DefaultProvider;
+use Intersect\Providers\MigrationsProvider;
 
 return [
     'app' => [
@@ -13,9 +14,10 @@ return [
             'expose-headers' => [],
             'max-age' => null
         ],
-        'key' => '',
+        'key' => '<GENERATED_APP_KEY>',
         'providers' => [
-            DefaultProvider::class
+            DefaultProvider::class,
+            MigrationsProvider::class
         ]
     ],
     'database' => [
