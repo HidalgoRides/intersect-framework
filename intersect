@@ -7,7 +7,6 @@ use \Intersect\Application;
 
 $application = Application::instance();
 $application->setBasePath(realpath(__DIR__));
-$application->init();
 $application->loadCommands();
 
 $commandRunner = new \Intersect\Core\Command\CommandRunner($application);

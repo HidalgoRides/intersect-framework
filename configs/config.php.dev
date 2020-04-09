@@ -7,7 +7,6 @@ use Intersect\Providers\MigrationsProvider;
 return [
     'app' => [
         'cors' => [
-            'enabled' => false,
             'allow-credentials' => 'false',
             'allow-headers' => [],
             'allow-methods' => [],
